@@ -103,13 +103,11 @@ img {
 }
 
 #blurb-styles-room-details-container {
-	padding-top: 3%;
-	/*background: yellow;*/
+	padding-top: 5%;
 }
 
 #blurb-styles-container {
-	/*background: brown;*/
-	width: 60%;
+	width: 55%;
 	float: left;
 	margin: 0;
 }
@@ -119,29 +117,30 @@ img {
 }
 
 #styles-container {
-	background: purple;
+	/*background: purple;*/
 }
 
 #room-details-container {
-	background: pink;
-	width: 40%;
+	background: white;
+	width: 30%;
 	float: right;
-	margin: 0;
+	padding: 3%;
 }
 
 #clear {
 clear: both;
 }
 
-#header-heading {
+#header-heading, #styles-heading {
 	color: #FDD8D0;
 	font-family: 'Saelic Light';
-	font-size: 0.7%;
+	font-size: 0.7em;
 	margin-bottom: 1%;
+	padding-top: 1%;
 }
 
 #header-content {
-	color: black;
+	color: #1C2233;
 	font-family: 'Surveyor Text Medium';
 	font-size: 1em;
 }
@@ -152,10 +151,41 @@ clear: both;
 	width: 70%;
 	color: #738494;
 	line-height: 150%;
-	/*background: none;*/
 }
 
 #blurb-content::first-letter {
 	font-size: 250%;
-	color: black;
+	color: #1C2233;
+}
+
+#styles-content {
+	width: 60%;
+	line-height: 150%;
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+	font-family: 'Surveyor Text Light';
+	font-size: 0.8em;
+	color: #738494;
+}
+
+.room-details {
+	columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+	padding-bottom: 10%;
+}
+
+.room-details-headers {
+	font-family: 'Saelic Medium';
+	font-size: 0.5em;
+	font-weight: bolder;
+	color: #1C2233;
+	letter-spacing: 0.07em;
+}
+
+.room-details-content {
+	font-family: 'Surveyor Text Light';
+	font-size: 0.8em;
+	color: #738494;
 }
