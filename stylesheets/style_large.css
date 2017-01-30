@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Saelic Hairline';
+  src: url('../fonts/Sailec_Desktop_Font/Type Dynamic - Sailec Hairline.otf');
+}
+@font-face {
+  font-family: 'Saelic Light';
+  src: url('../fonts/Sailec_Desktop_Font/Type Dynamic - Sailec Light.otf');
+}
+@font-face {
+  font-family: 'Saelic Medium';
+  src: url('../fonts/Sailec_Desktop_Font/Type Dynamic - Sailec Medium.otf');
+}
+@font-face {
+  font-family: 'Surveyor Text Medium';
+  src: url('../fonts/Surveyor_Desktop_Font/surveyortext-medium-webfont.ttf');
+}
+@font-face {
+  font-family: 'Surveyor Text Light';
+  src: url('../fonts/Surveyor_Desktop_Font/surveyortext-light-webfont.ttf');
+}
+@font-face {
+  font-family: 'Surveyor Textbook Pro';
+  src: url('../fonts/Surveyor_Desktop_Font/SurveyorText-Book-Pro.otf');
+}
+
+.wrapper {
+  background: #EEEEEE;
+  max-width: 1150px;
+	margin: 0 auto;
+	padding: 4%;
+	overflow:auto;
+	clear:both;
+}
+
+#header-container {
+	left: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+	background: white;
+	padding: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 40%;
+	text-align: center;
+}
+
+#details-container {
+width: 75%;
+margin-right: auto;
+margin-left: auto;
+padding-top: 5%
+}
+
+img {
+    width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+#blurb-styles-room-details-container {
+	padding-top: 3%;
+	/*background: yellow;*/
+}
+
+#blurb-styles-container {
+	/*background: brown;*/
+	width: 60%;
+	float: left;
+	margin: 0;
+}
+
+#blurb-container {
+	padding-bottom: 5%;
+}
+
+#styles-container {
+	background: purple;
+}
+
+#room-details-container {
+	background: pink;
+	width: 40%;
+	float: right;
+	margin: 0;
+}
+
+#clear {
+clear: both;
+}
+
+#header-heading {
+	color: #FDD8D0;
+	font-family: 'Saelic Light';
+	font-size: 0.7%;
+	margin-bottom: 1%;
+}
+
+#header-content {
+	color: black;
+	font-family: 'Surveyor Text Medium';
+	font-size: 1em;
+}
+
+#blurb-content {
+	font-family: 'Surveyor Text Light';
+	font-size: 1.1em;
+	width: 70%;
+	color: #738494;
+	line-height: 150%;
+	/*background: none;*/
+}
+
+#blurb-content::first-letter {
+	font-size: 250%;
+	color: black;
+}
